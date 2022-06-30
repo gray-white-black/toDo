@@ -15,6 +15,7 @@ ul{
     -webkit-box-shadow: 0px 5px 22px 0px rgba(0,0,0,0.9);
     box-shadow: 0px 5px 22px 0px rgba(0,0,0,0.9);
     transition: background-color .15s ease-in;
+    margin-left: 15px
 }
 .doList:hover{
     background: #2f3244;
