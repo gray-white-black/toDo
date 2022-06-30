@@ -1,0 +1,221 @@
+body{
+    background: #333333;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+ul{
+    padding: 0;
+}
+.doList{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    -webkit-box-shadow: 0px 5px 22px 0px rgba(0,0,0,0.9);
+    box-shadow: 0px 5px 22px 0px rgba(0,0,0,0.9);
+    transition: background-color .15s ease-in;
+}
+.doList:hover{
+    background: #2f3244;
+}
+.whiteList i{
+    background: #7f8a8a;
+    color: #1d1e26;
+    transition: all .15s ease-in;
+}
+.whiteList i:hover{
+    background: #7f8a8a;
+    color: #1d1e26;
+}
+.whiteList{
+    background: #7f8a8a;
+    color: #1d1e26;
+    transition: all .15s ease-in;
+}
+.whiteList:hover{
+    background: #7f8a8a;
+    color: #1d1e26;
+}
+.taskFormText{
+    margin-left: 50px;
+}
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.card-header{
+    padding-top: 40px;
+}
+div{
+
+}
+
+button i{
+    font-size: 30px;
+    color: #69a3bd;
+    pointer-events: none;
+}
+button{
+    border: none;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.fa-xmark{
+    color: #c57474;
+}
+.fa-check{
+    color: #7cc574;
+}
+small{
+    font-size: 16px;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    -webkit-box-shadow: 3px 1px 10px 5px rgba(0,0,0,0.6);
+    box-shadow: 3px 1px 10px 5px rgba(0,0,0,0.6);
+    width: 440px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    border-style: none;
+    background: transparent;
+    outline: none;
+}
+
+button {
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: radial-gradient(circle at 0% 0%, #373b52, #252736 51%, #1d1e26);
+}
+
+h1.demo {
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+    color: #f5f6ff;
+}
+
+a.demo {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: normal;
+    color: rgba(202, 205, 239, 0.8);
+    margin-bottom: 3rem;
+}
+
+.demo-flex-spacer {
+    flex-grow: 1;
+}
+
+.container-input {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    max-width: 1600px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+@-webkit-keyframes gradient {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+.style-input {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 2px;
+    padding: .2rem 2rem .1rem;
+    background: rgba(57, 63, 84, 0.8);
+}
+.style-input:after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 999;
+    height: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-position: 0% 0%;
+    background: linear-gradient(to right, #B294FF, #57E6E6, #FEFFB8, #57E6E6, #B294FF, #57E6E6);
+    background-size: 500% auto;
+    -webkit-animation: gradient 3s linear infinite;
+    animation: gradient 3s linear infinite;
+}
+
+.style-input input {
+    flex-grow: 1;
+    color: #BFD2FF;
+    font-size: 1.8rem;
+    line-height: 1rem;
+    vertical-align: middle;
+}
+.style-input input::-webkit-input-placeholder {
+    color: #7881A1;
+}
+
+.style-input button {
+    color: #7881A1;
+    font-size: 2.4rem;
+    line-height: 1rem;
+    vertical-align: middle;
+    transition: color 0.25s;
+}
+.style-input button:hover {
+    color: #BFD2FF;
+}
